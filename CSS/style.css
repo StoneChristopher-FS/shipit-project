@@ -1,0 +1,53 @@
+body{
+    background-color: #003C52;
+    color: #F3E5CE;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    background-color: #F3E5CE;
+    color: #003C52;
+}
+
+nav{
+    width: 100%;
+}
+
+nav > li {
+    width: 90%;
+    padding: 2px 0;
+    background-color: #003C52;
+    color: #F3E5CE;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+nav > li:hover{
+    background-color: #00B4F5;
+}
+
+ul > li{
+    margin: 5px;
+    padding: 10px;
+    background-color: #F3E5CE;
+    color: #003C52;
+    border-radius: 5px;
+}
+
+#skills li:hover{
+    background-color: #00B4F5;
+}
+
+#icon > a{
+    transition: all .5s;
+}
+
+#icon > a:hover{
+    transform: scale(1.5);
+    color: #00B4F5;
+}

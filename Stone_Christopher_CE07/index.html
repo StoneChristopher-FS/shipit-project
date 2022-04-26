@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CE07 Final Project</title>
+</head>
+<body>
+    <!-- 
+        Christopher Stone
+        6/26/2021
+        Code Exercise 07: Final Project
+    -->
+
+    <h1>Body Mass Calculator</h1>
+    <h3>This calculator will take your height(ft/in) and your weight(lbs) and calculate what your BMI is and show a picture based off the number.</h3>
+
+    <form id="bmiCalc">
+
+        <label for="heightFt">Enter your height:</label>
+        <br>
+        <input type="number" id="heightFt" min="0" max="9" step="1" required> <label for="heightFt"> ft</label>
+        <input type="number" id="heightIn" min=".01" max="11.99" step="any" required> <label for="heightIn"> in</label>
+
+        <br><br>
+
+        <label for="weight">Enter your weight:</label>
+        <br>
+        <input type="number" id="weight" min="0" max="1400" step="any" required> <label for="weight"> lbs</label>
+
+        <br><br>
+
+        <button type="button" id="bmiConvert">What is my BMI?</button>
+
+    </form>
+
+    <h1 id="textResult"></h1>
+    <img id="imgResult" height="360">
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

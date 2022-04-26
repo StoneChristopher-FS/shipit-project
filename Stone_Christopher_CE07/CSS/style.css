@@ -1,0 +1,17 @@
+body{
+    background-color: #170A1C;
+    color: #0B7189;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+label{
+    font-size: 1.15rem;
+}
+
+#heightIn, #weight{
+    width: 70px;
+}
+

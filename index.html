@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/19ca5589a4.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    
+
+    <title>Christopher Stone's Portfolio</title>
+</head>
+<body>
+    <header class="flex flex-col items-center xl:flex-row xl:justify-between xl:content-center xl:p-4">
+        <a href="#">
+            <img src="IMG/my-logo.png" alt="CS logo" class="h-14 2xl:h-16">
+        </a>
+
+        <nav class="flex flex-col items-center my-5 list-none xl:flex-row xl:w-5/12">
+            <li class="mb-5 lg:w-1/2 xl:m-0 xl:ml-1 xl:py-1 xl:px-5"><a href="#about" class="text-2xl">About</a></li>
+            <li class="mb-5 lg:w-1/2 xl:m-0 xl:ml-1 xl:py-1 xl:px-5"><a href="#projects" class="text-2xl">Projects</a></li>
+            <li class="mb-5 lg:w-1/2 xl:m-0 xl:ml-1 xl:py-1 xl:px-5"><a href="#skills" class="text-2xl">Skills</a></li>
+            <li class="mb-5 lg:w-1/2 xl:m-0 xl:ml-1 xl:mr-5 xl:py-1 xl:px-5"><a href="#contact" class="text-2xl">Contact</a></li>
+        </nav>
+    </header>
+
+    <main class="flex flex-col items-center">
+
+        <section id="about" class="flex flex-col items-center w-11/12 mt-16 2xl:flex-row 2xl:justify-evenly">
+            <img src="IMG/me.jpg" alt="Christopher Stone" class="rounded-lg h-80">
+
+            <section class="flex flex-col items-center 2xl:flex-col 2xl:items-center 2xl:w-1/2">
+                <h3 class="my-5 text-3xl">Christopher Stone</h3>
+                <p class="text-lg text-center">I'm currently working full-time as a Technical Support Analyst and attending school full-time to earn my degree in Web Development. I really enjoy gaming and working on cars when I get the time to do so. I'm really excited to see where this new career path takes me and can't wait to get my first development job.</p>
+            </section>
+        </section>
+
+        <section id="projects" class="flex flex-col items-center w-11/12 mt-20">
+
+            <h2 class="mb-10 text-4xl">Projects</h2>
+
+            <section class="xl:flex xl:flex-wrap xl:justify-around">
+                <section class="flex flex-col items-center mb-10 xl:w-2/5">
+                    <a href="https://codepen.io/cmstone-fullsail/full/LYWNvGd" target="_blank"><img src="IMG/html-challenge.png" alt="html challenge project"></a>
+                    <h3 class="mt-2 text-2xl">HTML Challenge</h3>
+                </section>
+                <section class="flex flex-col items-center mb-10 xl:w-2/5">
+                    <a href="https://codepen.io/cmstone-fullsail/full/ExWmyVb" target="_blank"><img src="IMG/branded-website.png" alt="branded website"></a>
+                    <h3 class="mt-2 text-2xl">Branded Website</h3>
+                </section>
+                <section class="flex flex-col items-center mb-10 xl:w-2/5">
+                    <a href="StoneChristopher_SplashPage/index.html" target="_blank"><img src="IMG/splash-page.png" alt="splash page"></a>
+                    <h3 class="mt-2 text-2xl">Splash Page</h3>
+                </section>
+                <section class="flex flex-col items-center mb-10 xl:w-2/5">
+                    <a href="Stone_Christopher_CE07/index.html" target="_blank"><img src="IMG/bmi-calculator.png" alt="bmi calculator"></a>
+                    <h3 class="mt-2 text-2xl">BMI Calculator</h3>
+                </section>
+            </section>
+
+        </section>
+
+        <section id="skills" class="flex flex-col items-center w-11/12 mt-16">
+            <h2 class="mb-5 text-4xl">Skills</h2>
+
+            <ul class="font-bold text-center lg:flex">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Tailwinds</li>
+                <li>Problem-Solving</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="flex flex-col items-center w-11/12 mt-5">
+            <h2 class="mt-10 text-4xl text-center">Contact</h2>
+
+            <section id="icon" class="inline-flex mb-5">
+                <a href="https://github.com/cmstone-fullsail" target="_blank" class="m-10 text-4xl"><i class="fab fa-github-alt"></i></a>
+                <a href="https://www.linkedin.com/in/cmstone-dev/" target="_blank" class="m-10 text-4xl"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/cmstone_dev" target="_blank" class="m-10 text-4xl"><i class="fab fa-twitter"></i></a>
+            </section>
+        </section>
+
+    </main>
+
+</body>
+</html>
